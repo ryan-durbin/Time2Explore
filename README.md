@@ -1,7 +1,7 @@
 All rights reserved
 ===================
 
-Post from my facepunch post :
+Post from my facepunch post : http://facepunch.com/showthread.php?t=1270985&p=40663952#post40663952
 "
 Hey all.  To get a sense of what I'm trying to make check out the 'Time 4 Exploration' game for android.
 
