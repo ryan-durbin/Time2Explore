@@ -1,0 +1,140 @@
+Town center
+
+----HOUSES----
+House - Tent > Hut ; RV > Prefab
+     Population: 2, 3, 4, 4
+     Rate: .010, .020, .015, .10
+     Prestige: 1, 1, 1, 2
+     Cost:
+          Trees: or1, x, x, x
+          Wood: or3, 10*, 20*, 40*
+     TechReq: x, x, vehicle, vehicle
+         
+House - Shack > Bungalo
+     Population: 3, 5
+     Rate: .020, .025
+     Prestige: 2, 5
+     Cost:
+          Wood: 40, 100*
+          Stone: 40, 100
+     TechReq: Village, Village
+     Upgrades: Prostitution, x
+
+House - House (Small, Medium, Large, Mansion)
+     Population: 4, 6, 8, 10
+     Rate: .05, .065, .125, .075
+     Prestige: 10, 16, 25, 50
+     Cost:
+          Wood: 100, 200, 500, 1000
+          Stone:  100, 110, 300, 1250
+     TechReq:Education, Education, Education, Education-Prestige(7500)
+     Upgrades: thrift store, Wal-Mart,
+         
+----food----
+food - River Water > Water Well > Water Tower > Water Pump
+     Water: 5, 20, 75, 150
+     Prestige: 1, 5, 25, 75
+     Cost:
+          Tree: or1, x, x, x
+          Wood: or4, 10, 300, 100
+          Stone: x, 25, 100, 300
+          Mech: x, x, 1, 10
+          Electricity Cycle: x, x, x, 10
+     TechReq: x, Tools, Tools-Plumbing, Tools-Electricity-Plumbing
+     Upgrades: Water Filter, Sewage Treatment
+
+Food - Corn Field
+     Corn: 5
+     Prestige: 10
+     Cost:
+          Wood: 5
+          Water per cycle: 5
+     Upgrades: Irrigation, Plow, Tractor, Pesticides, Bee cultivation, Cross breeding, Genetic selection, Genetic manipulation, Bio engineered, genetic engineered
+
+Food - Wheat Field
+     Wheat: 10
+     Prestige: 10
+     Cost:
+          Wood: 5
+          Water per cycle: 5
+     Upgrades: *see 'Corn Field' 
+
+Food - Stone Mill > Wind Mill > Water Wheel Mill > Diesel Electric Mill
+     Flour: 5, 15, 20, 50 (minus loss)
+     Maximum Loss: 50%, 40%, 30%, 20%
+     Prestige: 10, 50, 50, 100
+     Cost:
+          Wood: x, 200, 200, 500
+          Stone: 10, 250, 300, 1000
+          Wheat per cycle: 5, 15, 20 , 50
+     TechReq: x, Tools, Tools, Tools-Vehicles
+     Upgrades: Refine stones, Flour sifter, Flour recovery, Electro-static sifter
+
+Food - Bread fire oven > Bread bakery > Bread factory
+     Bread: 5, 12, 25
+     Prestige: 5, 15, 40
+     Cost:
+          Stone: 5, 100, 200
+          Wood: 5, 100, 500
+          Wood per cycle: 5, 10 , 20
+          Flour per cycle: 5, 12, 25
+     TechReq: x, Village, Village-Tools
+     Upgrades: Bellows, Bread pans, Teflon, Thermometer, Programmable oven
+
+Food - Piggery
+     Pig: .5
+     Prestige: 25
+     Cost:
+          Wood: 100
+          Corn per cycle: 3
+          Water per cycle: 2
+     Upgrades: Trough, Advanced husbandry
+
+Food - Pasteur
+     Cow: .2
+     Prestige: 30
+     Cost:
+          Wood: 100
+          Water per cycle: 3
+     Upgrades: Cow bell,
+
+Food - Milk cow, Milk dairy
+     Milk: .5, 1
+     Prestige: 5, 15
+     Cost:
+          Wood: 100, 200
+          Cow per cycle: 1
+          Cow per cycle: -1
+     Upgrades: Glass bottles
+
+Food - Butcher
+     Meat: 50
+     Prestige: 50
+     Cost:
+          Wood: 50
+          Stone: 200
+          or Cow per cycle: 1
+          or Pig per cycle: 2
+     TechReq: Pasteur or Piggery
+     Upgrades: Sharp knives, Butcher's assistant, Meat hooks
+
+Food- Apple grove
+     Apple: 5
+     Prestige: 10
+     Cost:
+          Wood: 50
+          Wood per cycle: 5
+          Water per cycle: 5
+     Upgrades: Irrigation, Tall pickers, Seedless, Pesticides, Bee cultivation, Cross breeding, Genetic selection, Genetic manipulation, Bio engineered, genetic engineered
+
+Food - Cheesery
+     Cheese: 5
+     Prestige: 25
+     Cost:
+          Wood:50
+          Stone:75
+          Milk per cycle: 5
+     TechReq: Milk cow or Milk dairy
+     Upgrades: Cheese cloth
+
+Food - 
